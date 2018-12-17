@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-lab",
+  "version": "1.0.0",
+  "description": "Covalence Lab - NodeJS Basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Davis",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
