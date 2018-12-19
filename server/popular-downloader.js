@@ -8,7 +8,7 @@ const MyUtils = require('./shared/austin-utils');
 
 let downloadsPath = path.join(__dirname, './downloads/'); // Path to 'downloads' folder
 
-MyUtils.rmDirContents(downloadsPath); // Remove contents of the downloads folder before downloading
+MyUtils.clearDir(downloadsPath); // Remove contents of the downloads folder before downloading
 
 rp('https://reddit.com/r/popular.json')
     .then((body) => {

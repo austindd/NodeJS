@@ -84,7 +84,7 @@ MyUtils.getContent = (url) => {
 
 // Ripped this off the web. Source: https://gist.github.com/liangzan/807712/8fb16263cb39e8472d17aea760b6b1492c465af2
 // Removes contents from specified directory, with an option to remove the directory itself
-MyUtils.rmDirContents = function (dirPath, removeSelf = false) {
+MyUtils.clearDir = function (dirPath, removeSelf = false) {
     if (removeSelf === undefined)
         removeSelf = true;
     try { var files = fs.readdirSync(dirPath); }
