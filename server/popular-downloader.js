@@ -6,7 +6,7 @@ const https = require('https');
 const MyUtils = require('./shared/austin-utils');
 
 
-let downloadsPath = path.join(__dirname, '../downloads/'); // Path to 'downloads' folder
+let downloadsPath = path.join(__dirname, './downloads/'); // Path to 'downloads' folder
 
 MyUtils.rmDirContents(downloadsPath); // Remove contents of the downloads folder before downloading
 
